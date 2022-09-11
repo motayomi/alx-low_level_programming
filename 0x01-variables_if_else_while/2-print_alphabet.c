@@ -2,21 +2,21 @@
 
 
 /**
- *  * main - print the letters of the alphabet
- *   * Description: print the letters of the alphabet in lowercase\n
- *    * Return: Always 0 (Success)
- *     */
+ * main - print the letters of the alphabet
+ * Description: print the letters of the alphabet in lowercase\n
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-		int ch;
+	int ch;
 
-			for (ch = 'a'; ch <= 'z'; ch++)
-					{
-								putchar(ch);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
 
-									}
-				putchar('\n');
+	}
+	putchar('\n');
 
-					return (0);
+	return (0);
 }
