@@ -3,33 +3,29 @@
 
 /**
  * print_to_98 - prints numbers to 98
- * @n: A input integer
+ * @n: starting integer
  * Description: prints all natural number from n - 98
+ *
  * Return: void
  */
+
 void print_to_98(int n)
 {
-	if (n <= 98)
+	if (n < 98)
 	{
-		for (; n <= 98; n++)
+		while (n < 98)
 		{
-			printf("%d", n);
-
-			if (n == 98)
-				continue;
-			printf(",");
+			printf("%d, ", n);
+			n++;
 		}
-		printf("\n");
 	}
-	else
+	else if (n > 98)
 	{
-		for (; n >= 98; n--)
+		while (n > 98)
 		{
-			printf("%d", n);
-			if (n == 98)
-				continue;
-			printf(",");
+			printf("%d, ", n);
+			n--;
 		}
-		printf("\n");
 	}
+	printf("98\n");
 }
