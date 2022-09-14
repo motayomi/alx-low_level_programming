@@ -1,8 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
-/** 
- *File : main.h
- *Description: contains all functions prototype use in this project 
+
+/**
+ * File: main.h
+ * Description: contains all functions prototype use in this project
  */
 
 int _putchar(char c);
